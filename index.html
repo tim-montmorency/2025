@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="description" content="Modele pour projet">
+    <title>Modele pour projet</title>
+
+        <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Modele docsify avec actions">
+    <meta property="og:description" content="Modele de projet multimédia">
+    <meta property="og:image" content="https://tim-montmorency.com/58266b-experience-modele/favicon/opengraph.drawio.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+       
+    <link rel="stylesheet" href="https://gllmar.github.io/docsify-simple-style/docsify-simple-style.css">
+
+    <link rel="stylesheet" href="https://gllmar.github.io/docsify-lightbox/docsify-lightbox.css">
+    <!-- Custom Styles -->
+    <style>
+        :root {
+            --theme-hue:2;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="app"></div>
+    <script src="https://gllmar.gitlab.io/docsify-ciphertext/decrypt-plugin.js"></script>
+
+    <script>
+        window.$docsify = {
+            name: 'Modèle pour projet',
+            repo: 'https://github.com/tim-montmorency/58266b-experience-modele',
+            auto2top: true,
+            loadSidebar: true,    // Enable sidebar loading
+            subMaxLevel: 4,       // Adjust the level to include in TOC
+            relativePath: true, // relative path enable
+            search: 'auto', 
+            search: {
+            paths: 'auto',
+            placeholder: '🔎',
+            noData: '📭',
+        },
+            pagination: {
+                previousText: '',
+                nextText: '',
+                crossChapter: true,
+                crossChapterText: true,
+            },
+            copyCode: {
+                buttonText: '📄',
+                errorText: '⚠️',
+                successText: '✅ ',
+            },
+            unhashtagLinkExtensions: ['.pdf', '.html', '.docx' ,'.pd' ],
+            plugins: [
+                window.decryptContentPlugin,
+                // Lightbox plugin
+                function (hook, vm) {
+                    hook.doneEach(() => {
+                        import('https://gllmar.github.io/docsify-lightbox/docsify-lightbox.js').then(module => {
+                            const images = document.querySelectorAll('img');
+                            const lightbox = new module.default();
+                            lightbox.initialize(images);
+                        }).catch(err => console.error('Failed to load Lightbox plugin', err));
+                    });
+                },
+                // WaveSurfer plugin
+                function (hook, vm) {
+                    hook.doneEach(() => {
+                        import('https://gllmar.github.io/docsify-wavesurfer-plugin/docsify-wavesurfer-plugin.js').then(module => {
+                            module.initWaveSurfer();
+                        }).catch(err => console.error('Failed to load WaveSurfer plugin', err));
+                    });
+                }
+            ]
+        };
+    </script>
+    
+
+    <!-- Required -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+    <!-- Import Mermaid -->
+    <script type="module">
+        import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: "neutral"
+        });
+        window.mermaid = mermaid;
+    </script>
+    
+    
+    <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <script src="https://gllmar.github.io/docsify-alert/docsify-alerts.js"></script>
+    <script src="https://gllmar.github.io/docsify-unhashtaglink/docsify-unhashtaglink.js"></script>
+    <script src="https://gllmar.github.io/docsify-repo-toolbar/docsify-repo-toolbar.js"></script>
+    <script src="https://gllmar.github.io/docsify-videoplayer/docsify-videoplayer.js"></script>
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="https://gllmar.github.io/docsify-github-tracker/docsify-github-tracker.js"></script>
+    <script src="https://gllmar.github.io/docsify-img-caption/docsify-img-caption.js"></script>
+    <script src="https://gllmar.github.io/docsify-img-grid/docsify-img-grid.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+</body>
+
+</html>
