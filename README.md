@@ -1,21 +1,11 @@
-# 58266b-experience-modele
+<h1 style="text-align: center;"> Résonances</h1>
 
-Modèle de publication pour le cours 582 66B experience multimedia interactive
+* [![Internature](https://placehold.co/600x400?text=Internature)](https://tprangers.github.io/internature/#/)
+* [![Fuga](https://placehold.co/600x400?text=Fuga)](https://escapism-fuga.github.io/Fuga/#/)
+* [![Etheria](https://placehold.co/600x400?text=Etheria)](https://ethereal-creators.github.io/Etheria/#/)
+* [![Luminatura](https://placehold.co/600x400?text=Luminatura)](https://miaou-mafia.github.io/projet-luminatura/#/)
+* [![C0N-DU8](https://placehold.co/600x400?text=C0N-DU8)](https://gearshift-games.github.io/Web-C0N-DU8/#/)
+* [![Prismatica](https://placehold.co/600x400?text=Prismatica)](https://pootpookies.github.io/Prismatica/#/)
+* [![Arcadia](https://placehold.co/600x400?text=Arcadia)](https://cousi-cousa.github.io/Arcadia/#/)
 
-## Devrait être présent sur cette page:
-
-* Titre
-* Bande-annonce
-* Résumé du projet (~ 100 mots)
-* Documentation vidéo de l'installation en action
-* Gallerie photo du projet réalisé
-
-## Gallerie image exemple
-
-* ![Image 1](https://placehold.co/400x400?text=1+image)
-* ![Image 2](https://placehold.co/400x400?text=2+image)
-* ![Image 3](https://placehold.co/400x400?text=3+image)
-* ![Image 4](https://placehold.co/400x400?text=4+image)
-* ![Image 5](https://placehold.co/400x400?text=5+image)
-* ![Image 6](https://placehold.co/400x400?text=6+image)
-
+<h4 style="text-align: center;"> Expérience multimédia TIM 2025</h4>
