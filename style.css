@@ -1,5 +1,5 @@
 :root {
-    --theme-hue: 330; /* Default hue value, adjust this to change the color */
+    --theme-hue: 346; /* Default hue value, adjust this to change the color */
     --theme-brightness: 70%; /* Default brightness value, can be adjusted */
     
     --theme-color: hsl(var(--theme-hue), 100%, var(--theme-brightness)); /* Use brightness variable */
@@ -22,7 +22,7 @@
   
   @media (prefers-color-scheme: dark) {
     :root {
-      --theme-background: #1e1e1e;
+      --theme-background: #131313;
       --theme-text: #e0e0e0;
       --theme-border: rgba(255, 255, 255, 0.1);
       --theme-bold-text: #ffffff;
@@ -124,6 +124,7 @@
   
   img {
     max-width: 100%;
+    border: hsl(var(--theme-hue) 100% 50%) 4px solid;
   }
   
   a[disabled] {
@@ -520,6 +521,12 @@
   
   body.close .content {
     left: 0;
+  }
+
+  figcaption {
+    background-color: hsl(var(--theme-hue) 100% 50%);
+    color: var(--theme-highlight-text);
+    padding: 0.5%;
   }
   
   @media print {
