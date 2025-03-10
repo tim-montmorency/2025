@@ -31,11 +31,12 @@
       --code-syntax: hsl(var(--theme-hue), 100%, calc(var(--theme-brightness) - 20%));
       --sidebar-background: #2e2e2e;
       --sidebar-text: #cccccc;
+     }
       .markdown-section tr:nth-child(even) {
         background-color: #3d3d3d; /* Darken the background for even rows */
       }
   
-    }
+   
   }
   
   
@@ -138,7 +139,7 @@
     order: 1;
   }
   /* Effet d'hover sur l'image */
-  img:hover {
+  figure img:hover {
     max-width: 100%;
     filter: brightness(110%);
     -webkit-mask: radial-gradient(circle at 50% 50%, #fff 75%, transparent 90%);
