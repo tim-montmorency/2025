@@ -1,5 +1,5 @@
 <img style="text-align: center;" class="logo_tim" src="./medias/logo_tim-transparent.png">
-<h1 style="text-align: center;"> Résonances</h1>
+<h1 style="text-align: center;"> Résonance</h1>
 <h1 style="text-align: center;"> Expérience multimédia TIM 2025</h1>
 
 <div style="text-align: center;">
