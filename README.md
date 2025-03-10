@@ -2,7 +2,7 @@
 <h1 style="text-align: center;"> Expérience multimédia TIM 2025</h1>
 
 <div style="text-align: center;">
-    <video autoplay loop controls>
+    <video autoplay loop muted playsinline>
         <source src="./medias/resonanceBanner.mp4" type="video/mp4">
     </video>
 </div>
