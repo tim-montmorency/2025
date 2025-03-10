@@ -31,11 +31,12 @@
       --code-syntax: hsl(var(--theme-hue), 100%, calc(var(--theme-brightness) - 20%));
       --sidebar-background: #2e2e2e;
       --sidebar-text: #cccccc;
+     }
       .markdown-section tr:nth-child(even) {
         background-color: #3d3d3d; /* Darken the background for even rows */
       }
   
-    }
+   
   }
   
   
