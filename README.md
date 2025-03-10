@@ -20,5 +20,5 @@
 * [![Luminatura](./medias/luminatura.png)](https://miaou-mafia.github.io/projet-luminatura/#/)
 * [![C0N-DU8](./medias/logo_c0n-du8.png)](https://gearshift-games.github.io/Web-C0N-DU8/#/)
 * [![Prismatica](./medias/logo_prismatica.png)](https://pootpookies.github.io/Prismatica/#/)
-* [![Arcadia](./medias/Arcadia.png)](https://cousi-cousa.github.io/Arcadia/#/)
+* [![Arcadia](./medias/arcadia_panel.png)](https://cousi-cousa.github.io/Arcadia/#/)
 
