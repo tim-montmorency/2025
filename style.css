@@ -114,13 +114,12 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: var(--theme-text);
-    font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+    font-family: "Montserrat", Source Sans Pro, Helvetica Neue, Arial, sans-serif;
     font-size: 15px;
     letter-spacing: 0;
     margin: 0;
     overflow-x: hidden;
     background-color: var(--theme-background);
-
   }
 
   .logo_tim {
@@ -822,7 +821,7 @@
   .markdown-section h4,
   .markdown-section strong {
     color: var(--theme-bold-text);
-    font-weight: 600;
+    font-weight: 200;
   }
   
   .markdown-section a {
@@ -832,6 +831,7 @@
   
   .markdown-section h1 {
     font-size: 2rem;
+    font-weight: 600;
     margin: 0 0 1rem;
   }
   
