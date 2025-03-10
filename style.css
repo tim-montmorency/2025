@@ -4,7 +4,7 @@
     
     --theme-color: hsl(var(--theme-hue), 100%, var(--theme-brightness)); /* Use brightness variable */
     --theme-color-hover: hsl(var(--theme-hue), 100%, calc(var(--theme-brightness) + 5%)); /* Slightly brighter on hover */
-    --theme-background: #ffffff;
+    --theme-background: #070707;
     --theme-text: #34495e;
     --theme-border: rgba(0, 0, 0, 0.07);
     --theme-highlight: hsl(var(--theme-hue), 100%, var(--theme-brightness)); /* Highlight color */
