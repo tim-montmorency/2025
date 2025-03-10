@@ -143,6 +143,15 @@
     transform: scale(101%);
    
   }
+  video{
+    border: 2px solid hsl(var(--theme-hue) 100% 50%);
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1296 / 600;
+    object-fit: cover; 
+  }
   
   a[disabled] {
     cursor: not-allowed;
