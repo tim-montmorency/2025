@@ -556,8 +556,9 @@
   figcaption {
     background-color: hsl(var(--theme-hue) 100% 50%);
     color: var(--theme-highlight-text);
-    text-decoration: none;
-    font-style: none;
+    text-decoration: none !important;
+    font-weight: 400;
+    font-style: normal !important;
     text-transform: uppercase;
     padding: 0.5%;
   }
