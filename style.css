@@ -47,6 +47,7 @@
     -webkit-text-size-adjust: none;
     -webkit-touch-callout: none;
     box-sizing: border-box;
+    text-decoration: none;
   }
   
   body:not(.ready) {
@@ -135,7 +136,7 @@
   }
   /* Figure est la bordure de l'image. */
   figure{
-    border: hsl(var(--theme-hue) 100% 50%) 4px solid;
+    border: hsl(var(--theme-hue) 100% 50%) 2px solid;
     order: 1;
   }
   /* Effet d'hover sur l'image */
@@ -560,7 +561,8 @@
     font-weight: 400;
     font-style: normal !important;
     text-transform: uppercase;
-    padding: 0.5%;
+    padding: 10px;
+    line-height: 10px;
   }
   
   @media print {
@@ -846,13 +848,13 @@
   }
   
   .markdown-section h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
     margin: 40px 0 .6rem;
   }
   
   .markdown-section h4 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   
   .markdown-section h5 {
