@@ -14,7 +14,7 @@
 </h4>
 
 * [![Internature](./medias/logo_internature.png)](https://tprangers.github.io/internature/#/)
-* [![Fuga](https://placehold.co/600x400?text=Fuga)](https://escapism-fuga.github.io/Fuga/#/)
+* [![Fuga](./medias/Fuga.png)](https://escapism-fuga.github.io/Fuga/#/)
 * [![Etheria](./medias/logo_etheria.png)](https://ethereal-creators.github.io/Etheria/#/)
 * [![Luminatura](https://placehold.co/600x400?text=Luminatura)](https://miaou-mafia.github.io/projet-luminatura/#/)
 * [![C0N-DU8](./medias/logo_c0n-du8.png)](https://gearshift-games.github.io/Web-C0N-DU8/#/)

@@ -120,15 +120,19 @@
     margin: 0;
     overflow-x: hidden;
     background-color: var(--theme-background);
+
   }
   
   img {
     max-width: 100%;
-    transition: 0.75s ease-in-out;
+    transition: 0.75s ease;
+    transform: scale(100%);
+    order: 2;
   }
   /* Figure est la bordure de l'image. */
   figure{
     border: hsl(var(--theme-hue) 100% 50%) 4px solid;
+    order: 1;
   }
   /* Effet d'hover sur l'image */
   img:hover {
@@ -136,6 +140,7 @@
     filter: brightness(110%);
     -webkit-mask: radial-gradient(circle at 50% 50%, #fff 75%, transparent 90%);
     mask: radial-gradient(circle at 50% 50%, #fff 5%, transparent 90%);
+    transform: scale(101%);
    
   }
   
