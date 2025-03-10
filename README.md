@@ -10,7 +10,7 @@
 <h3 style="text-align: center;">Résonance évoque un écho, une interaction qui se propage et transforme ce qui l’entoure. Qu’elle soit sonore, visuelle, émotionnelle ou philosophique, elle tisse des liens entre les êtres, les idées et les environnements.
 </h3>
 
-<h4 style="text-align: center;">Ce thème guide l’exposition des finissants et finissantes du programme techniques d’intégration multimédia du Collège Montmorency. Chaque projet explore la résonance sous un angle unique, qu’il s’agisse d’interactions humaines, de réflexions sur la nature ou d’ondes émotionnelles. À travers des œuvres vivantes et interactives, où la végétation occupe une place marquante, ils et elles invitent le public à ressentir l’écho de chaque interaction.
+<h4 style="text-align: center;">Ce thème guide l’exposition des finissants et finissantes du programme <a href="https://tim-montmorency.com/" style="text-decoration: none;">techniques d’intégration multimédia du Collège Montmorency</a>. Chaque projet explore la résonance sous un angle unique, qu’il s’agisse d’interactions humaines, de réflexions sur la nature ou d’ondes émotionnelles. À travers des œuvres vivantes et interactives, où la végétation occupe une place marquante, ils et elles invitent le public à ressentir l’écho de chaque interaction.
 </h4>
 
 * [![Internature](./medias/logo_internature.png)](https://tprangers.github.io/internature/#/)
