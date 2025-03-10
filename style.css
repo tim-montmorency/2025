@@ -556,6 +556,9 @@
   figcaption {
     background-color: hsl(var(--theme-hue) 100% 50%);
     color: var(--theme-highlight-text);
+    text-decoration: none;
+    font-style: none;
+    text-transform: uppercase;
     padding: 0.5%;
   }
   
@@ -843,6 +846,7 @@
   
   .markdown-section h3 {
     font-size: 1.5rem;
+    font-weight: 400;
     margin: 40px 0 .6rem;
   }
   
