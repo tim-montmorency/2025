@@ -27,7 +27,7 @@
 * [![C0N-DU8](./medias/logo_c0n-du8.png)](https://gearshift-games.github.io/Web-C0N-DU8/#/)
 * [![Arcadia](./medias/arcadia_panel.png)](https://cousi-cousa.github.io/Arcadia/#/)
 
-<h2 id="lieu" style="text-align: center;">Lieu de l'exposition</h2>
+<h2 style="text-align: center;">Lieu de l'exposition</h2>
 <div style="text-align: center;">
-    <img src="./medias/carte.png">
+    <img id="lieu" src="./medias/carte.png">
 </div>
