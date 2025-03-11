@@ -1107,3 +1107,11 @@
     text-align: right !important;
   }
   
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    transform: scale(1.5);
+  }

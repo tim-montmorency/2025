@@ -17,6 +17,12 @@
 <h4 style="text-align: center;">Ce thème guide l’exposition des finissants et finissantes du programme <a href="https://tim-montmorency.com/" style="text-decoration: none;">techniques d’intégration multimédia du Collège Montmorency</a>. Chaque projet explore la résonance sous un angle unique, qu’il s’agisse d’interactions humaines, de réflexions sur la nature ou d’ondes émotionnelles. À travers des œuvres vivantes et interactives, où la végétation occupe une place marquante, ils et elles invitent le public à ressentir l’écho de chaque interaction.
 </h4>
 
+<div style="text-align: right;">
+<a href="#lieu" title="Voir le lieu de l'exposition" class="material-symbols-outlined">
+map
+</a>
+</div>
+
 * [![Internature](./medias/logo_internature.png)](https://tprangers.github.io/internature/#/)
 * [![Etheria](./medias/logo_etheria.png)](https://ethereal-creators.github.io/Etheria/#/)
 * [![Fuga](./medias/Fuga.png)](https://escapism-fuga.github.io/Fuga/#/)
@@ -25,7 +31,7 @@
 * [![C0N-DU8](./medias/logo_c0n-du8.png)](https://gearshift-games.github.io/Web-C0N-DU8/#/)
 * [![Arcadia](./medias/arcadia_panel.png)](https://cousi-cousa.github.io/Arcadia/#/)
 
-<h2 style="text-align: center;">Lieux de l'exposition</h2>
+<h2 id="lieu" style="text-align: center;">Lieu de l'exposition</h2>
 <div style="text-align: center;">
     <img src="./medias/carte.png">
 </div>
