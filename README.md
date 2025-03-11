@@ -1,10 +1,13 @@
-<img style="text-align: center;" class="logo_tim" src="./medias/logo_tim-transparent.png">
+<div style="text-align: center; padding: 2%;">
+    <img class="logo_tim" src="./medias/logo_tim-optimiser.png">
+</div>
 <!-- <h1 style="text-align: center;"> Résonance</h1>
 <h1 style="text-align: center;"> Expérience multimédia TIM 2025</h1> -->
 
 <div style="text-align: center;">
     <video autoplay loop muted playsinline>
         <source src="./medias/resonanceBanner.mp4" type="video/mp4">
+        <img src="./medias/resonanceBannerBackup.png" alt="Bannière de l'exposition Résonance">
     </video>
 </div>
 
@@ -15,10 +18,14 @@
 </h4>
 
 * [![Internature](./medias/logo_internature.png)](https://tprangers.github.io/internature/#/)
-* [![Fuga](./medias/Fuga.png)](https://escapism-fuga.github.io/Fuga/#/)
 * [![Etheria](./medias/logo_etheria.png)](https://ethereal-creators.github.io/Etheria/#/)
+* [![Fuga](./medias/Fuga.png)](https://escapism-fuga.github.io/Fuga/#/)
 * [![Luminatura](./medias/luminatura.png)](https://miaou-mafia.github.io/projet-luminatura/#/)
-* [![C0N-DU8](./medias/logo_c0n-du8.png)](https://gearshift-games.github.io/Web-C0N-DU8/#/)
 * [![Prismatica](./medias/logo_prismatica.png)](https://pootpookies.github.io/Prismatica/#/)
+* [![C0N-DU8](./medias/logo_c0n-du8.png)](https://gearshift-games.github.io/Web-C0N-DU8/#/)
 * [![Arcadia](./medias/arcadia_panel.png)](https://cousi-cousa.github.io/Arcadia/#/)
 
+<h2 style="text-align: center;">Lieux de l'exposition</h2>
+<div style="text-align: center;">
+    <img src="./medias/carte.png">
+</div>
