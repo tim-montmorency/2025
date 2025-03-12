@@ -1,5 +1,5 @@
 <div style="text-align: center; padding: 2%;">
-    <img class="logo_tim" src="./medias/logo_tim-optimiser.png">
+    <img class="logo_tim" src="./medias/logo_tim_mauve.svg">
 </div>
 <!-- <h1 style="text-align: center;"> Résonance</h1>
 <h1 style="text-align: center;"> Expérience multimédia TIM 2025</h1> -->
